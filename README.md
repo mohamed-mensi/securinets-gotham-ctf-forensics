@@ -15,18 +15,17 @@ Every challenge is framed as a piece of evidence from the Gotham City investigat
 
 | # | Name | Category | Points | Difficulty |
 |---|---|---|---|---|
-| 01 | The Screenshot That Shouldn't Exist | Visual + Log Correlation | 200 | ⭐ Easy |
-| 02 | The Empty Email | Email Forensics | 300 | ⭐⭐ Medium |
-| 03 | Wrong Timezone | Metadata Analysis | 350 | ⭐⭐ Medium |
-| 04 | The Loyal Printer | Windows Artifacts | 500 | ⭐⭐⭐ Hard |
-| 05 | The Borrowed Session | Web Log + Binary | 400 | ⭐⭐⭐ Hard |
-| 06 | The Insider's Routine | Behavioral Analysis | 450 | ⭐⭐⭐ Hard |
-| 07 | Dead Letter Office | Filesystem Recovery | 500 | ⭐⭐⭐ Hard |
-| 08 | The Ghost Process | Memory Forensics | 550 | ⭐⭐⭐⭐ Hard |
-| 09 | Slow Exfil | Network Forensics | 500 | ⭐⭐⭐⭐ Hard |
-| 10 | Palimpsest | Document Forensics | 600 | ⭐⭐⭐⭐ Hard |
+| 01 | The Empty Email | Email Forensics | 300 | ⭐⭐ Medium |
+| 02 | Wrong Timezone | Metadata Analysis | 350 | ⭐⭐ Medium |
+| 03 | The Loyal Printer | Windows Artifacts | 500 | ⭐⭐⭐ Hard |
+| 04 | The Borrowed Session | Web Log + Binary | 400 | ⭐⭐⭐ Hard |
+| 05 | The Insider's Routine | Behavioral Analysis | 450 | ⭐⭐⭐ Hard |
+| 06 | Dead Letter Office | Filesystem Recovery | 500 | ⭐⭐⭐ Hard |
+| 07 | The Ghost Process | Memory Forensics | 550 | ⭐⭐⭐⭐ Hard |
+| 08 | Slow Exfil | Network Forensics | 500 | ⭐⭐⭐⭐ Hard |
+| 09 | Palimpsest | Document Forensics | 600 | ⭐⭐⭐⭐ Hard |
 
-**Total max points: 4350** (dynamic scoring — values decrease with each solve)
+**Total max points: 4150** (dynamic scoring — values decrease with each solve)
 
 ---
 
@@ -50,27 +49,22 @@ Points decrease as more teams solve a challenge. First blood rewards fast, accur
 securinets-isgt-forensics/
 │
 ├── challenges/
-│   ├── 01-screenshot/
+│   ├── 01-empty-email/
 │   │   ├── challenge/          ← files given to players
 │   │   └── solution/           ← SOLUTION.md + scripts (private)
-│   ├── 02-empty-email/
-│   ├── 03-wrong-timezone/
-│   ├── 04-loyal-printer/
-│   ├── 05-borrowed-session/
-│   ├── 06-insiders-routine/
-│   ├── 07-dead-letter-office/
-│   ├── 08-ghost-process/
-│   ├── 09-slow-exfil/
-│   └── 10-palimpsest/
+│   ├── 02-wrong-timezone/
+│   ├── 03-loyal-printer/
+│   ├── 04-borrowed-session/
+│   ├── 05-insiders-routine/
+│   ├── 06-dead-letter-office/
+│   ├── 07-ghost-process/
+│   ├── 08-slow-exfil/
+│   └── 09-palimpsest/
 │
 └── docs/
     ├── all_solutions.md        ← complete writeups for all challenges
-    └── scoring.md              ← dynamic scoring configuration
 ```
 
-> **Note:** The `solution/` directories are kept in this repository for organizer reference. If making this repo public after the competition, solutions should be moved to a separate branch or released post-event.
-
----
 
 ## 🛠️ Tools Required
 
